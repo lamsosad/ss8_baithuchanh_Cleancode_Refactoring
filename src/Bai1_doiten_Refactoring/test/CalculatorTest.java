@@ -13,7 +13,7 @@ public class CalculatorTest {
         int firstOperand = 2;
         int secondOperand = 1;
         char operator = '+';
-        int expected = 2;
+        int expected = 3;
 
         int result = Calculator.calculate(firstOperand, secondOperand, operator);
         assertEquals(expected, result);
@@ -25,7 +25,7 @@ public class CalculatorTest {
         int firstOperand = 10;
         int secondOperand = 3;
         char operator = '-';
-        int expected = 2;
+        int expected = 7;
 
         int result = Calculator.calculate(firstOperand, secondOperand, operator);
         assertEquals(expected, result);
@@ -37,7 +37,7 @@ public class CalculatorTest {
         int firstOperand = 3;
         int secondOperand = 7;
         char operator = '*';
-        int expected = 2;
+        int expected = 21;
 
         int result = Calculator.calculate(firstOperand, secondOperand, operator);
         assertEquals(expected, result);
@@ -49,7 +49,7 @@ public class CalculatorTest {
         int firstOperand = 20;
         int secondOperand = 4;
         char operator = '/';
-        int expected = 2;
+        int expected = 5;
 
         int result = Calculator.calculate(firstOperand, secondOperand, operator);
         assertEquals(expected, result);
